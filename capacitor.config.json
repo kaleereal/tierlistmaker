@@ -1,0 +1,6 @@
+{
+  "appId": "com.tierlist.myapp",
+  "appName": "Tier List Maker",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
