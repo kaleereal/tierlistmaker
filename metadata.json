@@ -1,0 +1,7 @@
+{
+  "name": "Tier List Maker",
+  "description": "Aplikasi pembuat tier list offline lengkap dengan drag and drop horizontal & vertikal, mode ranking cepat, ekspor gambar, dan manajemen folder.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

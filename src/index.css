@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --md-primary: #E0A458;
+  --md-on-primary: #4A2A00;
+  --md-primary-container: #6B3F00;
+  --md-on-primary-container: #FFDDB3;
+  --md-background: #141311;
+  --md-surface: #141311;
+  --md-surface-container: #211F1C;
+  --md-surface-container-high: #2B2926;
+  --md-surface-container-highest: #363430;
+  --md-surface-container-low: #1C1B18;
+  --md-on-surface: #E6E1DC;
+  --md-on-surface-variant: #D1C4B8;
+  --md-outline: #9A8F84;
+  --md-error: #FFB4AB;
+  --md-error-container: #93000A;
+}
+
+.theme-light {
+  --md-primary: #8A5100;
+  --md-on-primary: #FFFFFF;
+  --md-primary-container: #FFDDB3;
+  --md-on-primary-container: #2C1600;
+  --md-background: #FFF8F4;
+  --md-surface: #FFF8F4;
+  --md-surface-container: #F5EDE6;
+  --md-surface-container-high: #EFE7E0;
+  --md-surface-container-highest: #E7E0D9;
+  --md-surface-container-low: #FAF2EB;
+  --md-on-surface: #1E1B18;
+  --md-on-surface-variant: #4E4539;
+  --md-outline: #7F7568;
+  --md-error: #BA1A1A;
+  --md-error-container: #FFDAD6;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(154, 143, 132, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(154, 143, 132, 0.6);
+}
+
+/* Animations & drag indicators */
+@keyframes dropPulse {
+  0%, 100% { opacity: 0.7; transform: scaleY(1); }
+  50% { opacity: 1; transform: scaleY(1.05); }
+}
+
+.drop-indicator-pulse {
+  animation: dropPulse 1.2s ease-in-out infinite;
+}
